@@ -1,0 +1,41 @@
+.intro{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-505, -50%);
+    font-size: 50px;
+    color: #1f0202;
+    line-height: 50px;
+}
+.jumbotron img{
+    opacity: 0.6;
+}
+.motto{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-505, -50%);
+    font-size: 40px;
+    color: #252020;
+    line-height: 50px;
+}
+.row {
+    margin: 8px -16px;
+  }
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .panel-heading{
+      font-size: 50px;
+      float: center;
+  }
